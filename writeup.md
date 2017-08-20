@@ -287,7 +287,7 @@ Kernel `linear` of the Support Vector Machine Classifier seems to work well. Hen
 
 #### 1. For all three tabletop setups (`test*.world`), perform object recognition, then read in respective pick list (`pick_list_*.yaml`). Next construct the messages that would comprise a valid `PickPlace` request output them to `.yaml` format.
 
-Please refer to the code in the file `pr2_robot/scripts/perception_pipeline.py`.
+Please refer to the code in the file [pr2_robot/scripts/perception_pipeline.py](pr2_robot/scripts/perception_pipeline.py).
 
 #### Elaboration
 - Feature capturing and training use the same code as *Exercise 3* except the ones mentioned below.
